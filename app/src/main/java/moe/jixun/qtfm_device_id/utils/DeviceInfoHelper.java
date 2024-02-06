@@ -19,8 +19,8 @@ public class DeviceInfoHelper {
             buffer.append(String.format("%s: %s\n", item.name, item.value));
         }
 
-        String device_secret = getDeviceSecretKey(device_info);
-        buffer.append(String.format("%s: %s\n", "DEVICE_SECRET", device_secret));
+        String device_id = getDeviceSecretKey(device_info);
+        buffer.append(String.format("\n%s: %s\n", "QTFM_DEVICE_ID", device_id));
 
         return buffer.toString().trim();
     }
