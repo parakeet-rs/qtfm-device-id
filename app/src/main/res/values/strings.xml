@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QTFM - Android Build Const</string>
+    <string name="app_name">QTFM - Device ID Lookup</string>
     <string name="device_info">Device Info</string>
     <string name="btn_copy">Copy</string>
     <string name="hint_copied_device_info">Device info copied to clipboard.</string>

@@ -22,7 +22,7 @@ public class DeviceHashTest {
             new DeviceInfoEntry("MODEL", "model")
         );
 
-        String device_key = DeviceInfoHelper.getDeviceSecretKey(device_info);
+        String device_key = DeviceInfoHelper.generateUniqueDeviceId(device_info);
         assertEquals(device_key, "596491774546756d0800080a14121112");
     }
 }
