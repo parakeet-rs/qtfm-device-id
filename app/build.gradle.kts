@@ -10,8 +10,8 @@ android {
         applicationId = "moe.jixun.qtfm_device_id"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.1"
+        versionCode = 2
+        versionName = "1.1.1"
         setProperty("archivesBaseName", "${applicationId}-v$versionName")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
